@@ -4,7 +4,7 @@ HASHMAP=hashmap
 SOURCES=hashmap.c testHash.c
 
 CC=gcc
-CFLAGS= -Wall -pedantic -std=c99
+CFLAGS= -Wall -pedantic -std=c99 -ggdb
 
 all: $(HASHMAP)
 
